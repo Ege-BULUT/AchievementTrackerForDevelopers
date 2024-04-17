@@ -3,7 +3,7 @@
 
 > [!NOTE]
 > - Check [main](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/main) Branch to get the latest released version.
-> - Check [DEV](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/DEV) Branch to see latest Development updates.
+> - Check [DEV](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/DEV) Branch to see latest Development updates. (current)
 > - Check [ACP](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/ACP) Branch to see features that currently in Testing phase.
 
 __________

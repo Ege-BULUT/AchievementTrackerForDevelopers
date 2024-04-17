@@ -34,7 +34,7 @@ for the developers. The platform should provide some generic features such as:
   - [x] Frontend planning & UI Decisions
   - [x] Backend Planning & features
   - [x] Possible future updates
-  - [ ]  (optional) Technical Research
+  - [ ] (optional) Technical Research
   - [ ] (optional) Market Research 
 - [ ] Basic UI designs & frontend part
   - [ ] Streamlit implementation

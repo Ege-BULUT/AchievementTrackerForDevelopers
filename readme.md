@@ -1,5 +1,11 @@
 
 # Achievement Tracker for Developers v0.0.1a
+
+> [!NOTE]
+> - Check [main](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/main) Branch to get the latest released version.
+> - Check [DEV](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/DEV) Branch to see latest Development updates.
+> - Check [ACP](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/ACP) Branch to see features that currently in Testing phase.
+
 __________
 <details>
 
@@ -48,6 +54,5 @@ for the developers. The platform should provide some generic features such as:
   - [ ] Achievement system : Some generic Trophies for some cases / milestones 
   - [ ] Database implementation for future updates (making this project online)
 </details>
-
 
 _______________

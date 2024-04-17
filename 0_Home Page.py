@@ -33,8 +33,43 @@ def import_export_saves():
 
 
 def body():
-    st.write("INFO : ")
-    st.write(st.session_state["info"])
+    platform = st.selectbox("PLATFORM", options=["GITHUB", "LEETCODE", "HACKERRANK"])
+    options = []
+    if platform == "GITHUB":
+        options = ["Finished Project", "Ongoing Project", "Planned Project", "Abandoned Project"]
+    else:
+        options = ["Solved Question", "Ongoing Question"]
+    cols = st.columns([1,2])
+    with cols[0]:
+        amount = st.number_input("AMOUNT", min_value=1, max_value=100000)
+    with cols[1]:
+        status = st.selectbox("STATUS", options=options)
+
+    cols = st.columns([2,7,1,2,16,16])
+    with cols[0]:
+        st.write("On ")
+    with cols[1]:
+        st.write(platform)
+    with cols[2]:
+        st.write(amount)
+    with cols[3]:
+        st.write("x")
+    with cols[4]:
+        st.write(status)
+
+    if st.button("Add"):
+        if platform in st.session_state["info"].keys():
+            if status in st.session_state["info"][platform].keys():
+                st.session_state["info"][platform][status] += amount
+            else:
+                st.session_state["info"][platform].update({status: amount})
+        else:
+            st.session_state["info"].update({platform: {status: amount}})
+
+    st.write(" ")
+    st.write(" ")
+    with st.expander("INFO : ", expanded=True   ):
+        st.write(st.session_state["info"])
 
 
 def get_default_info():
@@ -45,6 +80,7 @@ def main():
     cols = st.columns([10, 10])
 
     with cols[1]:
+        st.write(" ")
         import_export_saves()
     with cols[0]:
         body()

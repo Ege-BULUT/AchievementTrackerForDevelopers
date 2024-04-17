@@ -44,7 +44,7 @@ for the developers. The platform should provide some generic features such as:
   - [ ] Login / Sign up feature for future updates (making this project online)
 - [ ] Basic backend side developments
   - [ ] Progress adding/removing/editing feature
-  - [ ] Save Files : import / export progress using save files.
+  - [ ] Save Files : import / export progress using save files
   - [ ] Achievement system : Some generic Trophies for some cases / milestones 
   - [ ] Database implementation for future updates (making this project online)
 </details>

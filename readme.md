@@ -6,6 +6,12 @@
 > - Check [DEV](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/DEV) Branch to see latest Development updates.
 > - Check [ACP](https://github.com/Ege-BULUT/AchievementTrackerForDevelopers/tree/ACP) Branch to see features that currently in Testing phase.
 
+> [!IMPORTANT]
+> ### How to Run it?
+> ______
+> use streamlit run "<script.py>" at the terminal <br>
+> ``streamlit run "0_Home Page.py"`` for our case.
+
 __________
 <details>
 
